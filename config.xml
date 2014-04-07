@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns = "http://www.w3.org/ns/widgets"
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+        id          = "cc.goodshow.ciaace"
+        version     = "1.0.5"
+        versionCode = "10" >
+
+        <!-- versionCode is optional and Android only -->
+
+        <preference name="phonegap-version" value="3.3.0" />
+        <name>CIAACE</name>
+
+        <description>
+			CIAACE is a mobile phone app for 2014 China International Auto Accessories
+        </description>
+
+        <author href="http://www.goodshow.cc" email="you@youremail.com">
+			GoodShow.cc Team
+        </author>
+		
+		<gap:platform name="ios" />
+		<gap:platform name="android" />
+		
+		<preference name="orienation" value="portrait" />
+		<preference name="fullscreen" value="true" />
+		
+		<icon src="icon.png" />
+		<gap:splash src="splash.png" />
+
+    </widget>
