@@ -2,8 +2,8 @@
     <widget xmlns = "http://www.w3.org/ns/widgets"
         xmlns:gap   = "http://phonegap.com/ns/1.0"
         id          = "cc.goodshow.ciaace"
-        version     = "1.0.5"
-        versionCode = "10" >
+        version     = "1.0.6"
+        versionCode = "11" >
 
         <!-- versionCode is optional and Android only -->
 
@@ -22,7 +22,7 @@
 		<gap:platform name="android" />
 		
 		<preference name="orienation" value="portrait" />
-		<preference name="fullscreen" value="true" />
+		<preference name="fullscreen" value="false" />
 		
 		<icon src="icon.png" />
 		<gap:splash src="splash.png" />
